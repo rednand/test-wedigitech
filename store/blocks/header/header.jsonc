@@ -29,7 +29,7 @@
   },
   "notification.bar#home": {
     "props": {
-      "content": "SELECTED ITEMS ON SALE! CHECK IT OUT!"
+      "content": "Frete grátis a partir de R$ 170,00!"
     }
   },
   "flex-layout.row#3-desktop": {

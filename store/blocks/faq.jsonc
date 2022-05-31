@@ -1,177 +1,30 @@
 {
   "store.custom#faq": {
     "children": [
-      "flex-layout.row#faq"
+      "info-card#faq",
+      "info-card#button-right"
     ]
   },
 
-  "flex-layout.row#faq": {
+  "info-card#faq": {
     "props": {
-      "blockClass": "faq"
-    },
-    "children": [
-      "flex-layout.col#faq"
-    ]
+      "textPosition": "left",
+      "imageUrl": "https://images2.imgbox.com/af/d1/1yoUdAHa_o.png",
+      "headline": "Ação / Aventura",
+      "subhead": "O gênero ação/aventura é, possivelmente, o maior gênero de todo o universo de videogames. Iniciado com Adventure (Atari 2600), em 1979, ele é a junção de mecânicas de dois gêneros já muito populares que resultou em uma fórmula de “fazer jogos” que se encaixa em muitas jogabilidades, histórias e estilos de narrativa diferentes.",
+      "textAlignment": "justify",
+      "callToActionMode": "none"
+    }
   },
+  "info-card#button-right": {
+    "props": {
+      "textPosition": "right",
+      "imageUrl": "https://images2.imgbox.com/c0/de/pOtIj2ry_o.png",
+      "headline": "Como escolher o videogame ideal para você? Descubra dicas infalíveis!",
+      "subhead": "Nibh diam dictumst vulputate rhoncus. Nisl, condimentum a, vel vulputate sapien parturient pulvinar sagittis. Nibh vitae ut pretium, mauris. Potenti venenatis habitant nulla quam ante maecenas sagittis. Erat fermentum sagittis enim sed tortor nam.     Purus sed est fermentum ipsum egestas proin. Egestas risus egestas sed a purus pulvinar. Magna tempus, sit orci ornare ridiculus aenean. Sagittis, eu tellus hendrerit velit facilisi elit proin blandit. Quisque eget massa, neque, id. Ac id sed faucibus adipiscing viverra egestas etiam est tempor. Id dictum viverra ut diam ipsum, eget. Ut consectetur turpis gravida et magna diam feugiat enim pretium. Sit tristique tempus bibendum id vehicula sed parturient amet. Blandit at id aliquet quis. Neque, magna enim elit pulvinar sodales auctor habitant turpis. Diam consequat, volutpat proin id sed blandit pellentesque. In malesuada id nunc habitant ullamcorper integer quam.",
+      "textAlignment": "justify",
+      "callToActionMode": "none"
 
-  "flex-layout.col#faq": {
-    "children": [
-      "rich-text#faq",
-      "disclosure-layout-group#group"
-    ]
-  },
-  "rich-text#faq": {
-    "props": {
-      "text": "## FAQ"
-    }
-  },
-
-  "disclosure-layout-group#group": {
-    "children": [
-      "disclosure-layout#first",
-      "disclosure-layout#second",
-      "disclosure-layout#third",
-      "disclosure-layout#fourth"
-    ]
-  },
-
-  "disclosure-layout#first": {
-    "props": {
-      "animated": true
-    },
-    "children": ["disclosure-trigger#first", "disclosure-content#first"]
-  },
-  "disclosure-trigger#first": {
-    "props": {
-      "blockClass": "question",
-      "as": "div"
-    },
-    "children": ["disclosure-state-indicator", "rich-text#question1"]
-  },
-  "disclosure-content#first": {
-    "props": {
-      "blockClass": "answer"
-    },
-    "children": ["rich-text#answer1"]
-  },
-  "rich-text#question1": {
-    "props": {
-      "text": "How can I change my shipping address?"
-    }
-  },
-  "rich-text#answer1": {
-    "props": {
-      "text": "Call us at the number (212) 1234-1234."
-    }
-  },
-
-  "disclosure-layout#second": {
-    "props": {
-      "animated": true
-    },
-    "children": ["disclosure-trigger#second", "disclosure-content#second"]
-  },
-  "disclosure-trigger#second": {
-    "props": {
-      "blockClass": "question",
-      "as": "div"
-    },
-    "children": ["disclosure-state-indicator", "rich-text#question2"]
-  },
-  "disclosure-content#second": {
-    "props": {
-      "blockClass": "answer"
-    },
-    "children": ["rich-text#answer2"]
-  },
-  "rich-text#question2": {
-    "props": {
-      "text": "How can I track my order?"
-    }
-  },
-  "rich-text#answer2": {
-    "props": {
-      "text": "After logging into your account, you can find this info at the link Orders."
-    }
-  },
-
-
-  "disclosure-layout#third": {
-    "props": {
-      "animated": true
-    },
-    "children": ["disclosure-trigger#third", "disclosure-content#third"]
-  },
-  "disclosure-trigger#third": {
-    "props": {
-      "blockClass": "question",
-      "as": "div"
-    },
-    "children": ["disclosure-state-indicator", "rich-text#question3"]
-  },
-  "disclosure-content#third": {
-    "props": {
-      "blockClass": "answer"
-    },
-    "children": ["rich-text#answer3"]
-  },
-  "rich-text#question3": {
-    "props": {
-      "text": "How can I change my shipping address?"
-    }
-  },
-  "rich-text#answer3": {
-    "props": {
-      "text": "Call us at the number (212) 1234-1234."
-    }
-  },
-
-
-  "disclosure-layout#fourth": {
-    "props": {
-      "animated": true
-    },
-    "children": ["disclosure-trigger#fourth", "disclosure-content#fourth"]
-  },
-  "disclosure-trigger#fourth": {
-    "props": {
-      "blockClass": "question",
-      "as": "div"
-    },
-    "children": ["disclosure-state-indicator", "rich-text#question4"]
-  },
-  "disclosure-content#fourth": {
-    "props": {
-      "blockClass": "answer"
-    },
-    "children": ["rich-text#answer2"]
-  },
-  "rich-text#question4": {
-    "props": {
-      "text": "How can I track my order?"
-    }
-  },
-  "rich-text#answer4": {
-    "props": {
-      "text": "After logging into your account, you can find this info at the link Orders."
-    }
-  },
-
-
-  "disclosure-state-indicator": {
-    "props": {
-      "Show": "icon-caret#down",
-      "Hide": "icon-caret#up"
-    }
-  },
-  "icon-caret#down": {
-    "props": {
-      "orientation": "down"
-    }
-  },
-  "icon-caret#up": {
-    "props": {
-      "orientation": "up"
     }
   }
 }

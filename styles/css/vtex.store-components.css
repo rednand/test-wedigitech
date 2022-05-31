@@ -96,9 +96,6 @@
   object-fit: cover !important;
 }
 
-.productImagesContainer--quickview .carouselGaleryThumbs {
-  display: none;
-}
 
 .productImagesContainer--quickview .carouselGaleryCursor {
   margin: 0;
