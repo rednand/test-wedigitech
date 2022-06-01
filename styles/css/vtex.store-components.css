@@ -1,9 +1,8 @@
 .notificationBarContainer {
-  background-color: #e6f1e6;
-  color: #03034e;
+  background-color: #1db8fb;
+  color: #ffffff;
   font-weight: 700;
   font-size: 12px;
-  text-decoration: underline;
 }
 
 .infoCardContainer--info-card-home {
@@ -95,7 +94,6 @@
 .productImagesContainer--quickview .productImageTag {
   object-fit: cover !important;
 }
-
 
 .productImagesContainer--quickview .carouselGaleryCursor {
   margin: 0;

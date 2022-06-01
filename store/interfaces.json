@@ -1,0 +1,9 @@
+{
+    "wishlist-button": {
+        "component": "WishlistButton"
+    },
+    "form-newsletter": {
+        "component": "FormNewsletter"
+    }
+
+}
