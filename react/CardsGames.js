@@ -2,7 +2,7 @@ import React from "react";
 import cardJson from "./card.json";
 import FilterGames from "./FilterGames";
 
-const WishlistButton = () => {
+const CardsGames = () => {
   return (
     <div>
       <FilterGames />
@@ -56,4 +56,4 @@ const WishlistButton = () => {
   );
 };
 
-export default WishlistButton;
+export default CardsGames;

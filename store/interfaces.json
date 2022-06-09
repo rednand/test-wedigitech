@@ -1,6 +1,6 @@
 {
     "wishlist-button": {
-        "component": "WishlistButton"
+        "component": "CardsGames"
     },
     "form-newsletter": {
         "component": "FormNewsletter"
