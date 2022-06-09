@@ -2,7 +2,7 @@
   "store.custom#faq": {
     "children": [
       "info-card#faq",
-      "wishlist-button",
+      "card-games",
       "form-newsletter",
       "info-card#button-right"
     ]
